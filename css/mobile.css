@@ -5,8 +5,6 @@ font-family: 'Cantarell', sans-serif;
 
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
-  overflow: hidden;
   background-color: #000;
 }
 
@@ -25,6 +23,7 @@ body {
   height: 100vh;
   width: 100vw;
   align-content: center;
+  justify-content: center
 }
 
 .aboutParagraphs {
@@ -55,6 +54,38 @@ body {
   font-size: 5vw;
   text-decoration: underline overline;
   color: #404040;
+}
+
+.myWork {
+  background-color: #ff9911;
+  height: 50vh;
+  width: 100vw;
+}
+
+.work-links {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.work-item {
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 5%;
+  display: flex;
+  position: relative;
+  margin: 5%;
+  height: 80%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+img.work-img {
+  width: 100%;
+  /* height: auto; */
 }
 
 @media only screen and (max-width: 768px) {

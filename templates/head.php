@@ -2,8 +2,8 @@
    <meta charset="utf-8">
    <title>Nicholas McGinnis</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Nick McGinnis | Sinnig Media | Web design & Development">
-   <meta name="author" content="Nick McGinnis | Sinnig Media | Web design & Development">
+   <meta name="description" content="Nick McGinnis | Sinnig Media | Web design & Development | iOS Development">
+   <meta name="author" content="Nick McGinnis | Sinnig Media | Web design & Development | iOS Development">
 
    <!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Cantarell:700i|Raleway" rel="stylesheet">
