@@ -1,0 +1,74 @@
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Cantarell', sans-serif;
+*/
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#mainLogo {
+  display: block;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 25%;
+  z-index: 111;
+}
+
+#aboutSection {
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+}
+
+.aboutParagraphs {
+   font-family: 'Raleway', sans-serif;
+   color: #808080;
+   text-align: center;
+}
+
+.aboutParagraphs a {
+  color: #808080;
+}
+
+.sinniglink a {
+  color: #808080;
+}
+
+.sinniglink a:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.sinniglink a:visited {
+  color: #808080;
+}
+
+.txt-rotate {
+  font-weight: bolder;
+  font-size: 5vw;
+  text-decoration: underline overline;
+  color: #404040;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    margin-top: 20%;
+  }
+
+  #mainLogo {
+    width: 50%;
+  }
+
+  #aboutSection {
+    width: 100%;
+    align-content: center;
+  }
+}
