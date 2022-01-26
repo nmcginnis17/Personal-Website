@@ -8,11 +8,8 @@
 					<p class="txt-rotate"
 		         data-period="1000"
 		         data-rotate='[
-						 	"Business",
-							"Finance",
-							"Graphic Design",
-							"Marketing",
-							"Photography",
+						 	"iOS Development",
+							"Digital Marketing",
 							"Web Development"
 							]'>
 					</p>

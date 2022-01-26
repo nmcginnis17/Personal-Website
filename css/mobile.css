@@ -3,6 +3,10 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Cantarell', sans-serif;
 */
 
+html {
+  background-color: #000;
+}
+
 body {
   overflow-x: hidden;
   background-color: #000;
@@ -45,10 +49,6 @@ body {
   text-decoration: none;
 }
 
-.sinniglink a:visited {
-  color: #808080;
-}
-
 .txt-rotate {
   font-weight: bolder;
   font-size: 5vw;
@@ -58,6 +58,7 @@ body {
 
 .myWork {
   background-color: #000;
+  padding-bottom: 50px;
   display: inline-grid;
 }
 
@@ -81,11 +82,9 @@ body {
 .work-item {
   border: 2px solid #fff;
   border-radius: 20px;
-  /* display: flex; */
-  /* position: relative; */
   margin: 1em;
-  padding: 5%;
-  height: 80%;
+  padding: auto;
+  height: 150px;
   width: 90%;
   align-content: center;
   justify-content: center;
@@ -95,10 +94,42 @@ img.work-img {
   width: 100%;
   align-content: center;
   justify-content: center;
-  height: 75%;
+  height: 70px;
 }
 
-@media only screen and (max-width: 768px) {
+#js50link:hover {
+  text-decoration: none;
+}
+
+#js50label {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: inherit;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+#js50label:hover {
+  color: #28a745;
+}
+
+#inProg {
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
   body {
     width: 100vw;
     margin-top: 20%;
@@ -110,6 +141,17 @@ img.work-img {
 
   #aboutSection {
     width: 100%;
+    height: 50vh;
     align-content: center;
+  }
+
+  #js50label {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 1415px) and (min-width: 768px) {
+  #js50label {
+    font-size: 35px;
   }
 }
