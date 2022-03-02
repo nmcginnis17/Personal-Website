@@ -40,7 +40,6 @@
         <a id="js50link" href="http://www.nicholasmcginnis.com/50in50">
           <div class="myWorkContent">
             <p id="js50label">JavaScipt 50</p>
-            <small id="inProg">(In Progress)</small>
           </div>
         </a>
       </div>
