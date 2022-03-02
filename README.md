@@ -1,3 +1,3 @@
 # My Personal Website Links
 
-nicholasmcginnis.com
+http://www.nicholasmcginnis.com
